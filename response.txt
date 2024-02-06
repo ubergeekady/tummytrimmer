@@ -1,0 +1,49 @@
+Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => PGTESTPAYUAT
+    [transactionId] => MT7850590068188104
+    [amount] => 100
+    [providerReferenceId] => T2310270022492519975882
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => 2ec420101ce340d500564d384adb5625accf5354bedcfa4588a9a4d915c2dbd0###1
+)
+
+
+OnPageLoad() =>
+Refresh()
+
+Refresh() => 
+1. Read JSON from LocalStorage.
+2. Paint the UI
+
+OnChange =>
+1. Read Data from UI
+2. Update LocalStorage
+Refresh()
+
+Quantity
+1 - RegularPrice - SalePrice
+2 - RegularPrice - SalePrice
+3 - RegularPrice - SalePrice
+4 - RegularPrice - SalePrice
+5 - RegularPrice - SalePrice
